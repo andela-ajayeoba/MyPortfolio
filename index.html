@@ -1,0 +1,147 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="user-scalable=no, width=device-width">
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<title>Nutty Carousel | Nutty Version</title>
+	<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<script src="js/jquery-1.9.1.min.js"></script>
+	<script type="text/javascript" src="js/jquery.flexisel.js"></script>
+	<script type="text/javascript" src="js/app.js"
+	></script>
+</head>
+<body>
+	<header>
+		<div id="header">
+			<div>
+				<a href="index.html">
+					<img src="images/nutty_logo.png" id="logo">
+				</a>
+			</div>
+			<nav>
+				<ul id="navlinks">
+					<li><a href="#welcome" class="nav-active">HOME</a></li>
+					<li><a href="#graphicgallery">GRAPHIC</a></li>
+					<li><a href="#webgallery">WEB</a></li>
+					<li><a href="#about">ABOUT</a></li>
+					<li><a href="#contact">CONTACT</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<div>
+		<div id="welcome" class="wrapper">
+			<h1>WELCOME</h1>
+			<p>Y'all are welcome to my online gallery hosted on GitHub...It's kinda nice to have a portfolio of all your works or should I say <span>ArtForms</span>, cos I like to think creativity isn't work rather <span>ART !!!</span> So what better place to display your <span>ART</span> than the web.</p>
+			<p>I have included a couple of graphic and web design I recently completed to this portfolio. As a budding graphic and software design entrepeneur, I am imbibing the culture of keeping a rich portfolio early on as I believe it isn't really about what you can do but <span>"what you have done."</span></p>
+			<p>I hope you'll enjoy the brief tour into my world even as you peruse my art. Feel free to comment, constructive criticism is very welcomed.</p>
+		</div>
+		
+		<div id="graphicgallery">
+			<h1>Graphic</h1>
+			<p class="caption">A collection of some of my graphic works</p>
+			<ul id="flexiselDemo1">
+				<li><img src="images/binsa.png" class="image"><p>logo for pseudo tech company</p></li>
+				<li><img src="images/greenprj.png" class="image"><p>Album art for Green Project</p></li>
+				<li><img src="images/jam_city.png" class="image"><p>Logo for Jam City concert.</p></li>
+				<li><img src="images/madause.png" class="image"><p>Logo for Madause.</p></li>
+				<li><img src="images/yole.png" class="image"><p>Album art for yole.</p></li>
+				<li><img src="images/eob.jpg" class="image"><p>Logo for a beauty outfit.</p></li>
+			</ul>
+		</div>
+		
+		<div id="webgallery">
+			<h1>Web</h1>
+			<p class="caption">A collection of some of my web projects</p>
+			<ul id="flexiselDemo3">
+				<li><a href="http://dejijaye.github.io/GoogleClone/" target="_blank"><img src="images/googleclone_2.png"></a><p>Google clone</p></li>
+				<li><a href="http://dejijaye.github.io/JobSeeker/" target="_blank"><img src="images/jobseeker.png"></a><p>A Job Seeker site.</p></li>
+				<li><a href="http://dejijaye.github.io/HotOrCold/" target="_blank"><img src="images/hotorcold.png"></a><p>A guessing game app.</p></li>
+				<li><a href="http://dejijaye.github.io/shoppinglist/" target="_blank"><img src="images/shoppinglist.png"></a><p>A shopping list app.</p></li>
+				<li><a href="http://dejijaye.github.io/NuttyWiki/" target="_blank"><img src="images/nuttywiki.png"></a><p>A search app.</p></li>
+			</ul>
+		</div>
+		
+		<div id="about">
+			<section class="aboutme">
+				<img src="images/dejijaye.png" alt="photograph of dejijaye" class="profile-pix">
+				<h3>About</h3>
+				<p>Hi fellas, welcome to my online gallery hosting some of my works. I am Ayodeji Jayeoba, I love art so much that I dumped engineering(not totally though) to become a graphic artist. I love designing stuffs, so I taught myself how to use a lot of graphic suites like CorelDraw, PhotoShop, fireworks and the likes. Currently, I am training at Andela to become an elite software programmer as this would be the best platform to bring all my art forms to life and to you fellas out there...</p>
+				<p>If you like to follow me on twitter, my username is <a href="http://twitter.com/dejijaye">@dejijaye</a></p>
+			</section>
+		</div>
+		
+		<div id="contact">
+			<h1>Contact</h1>
+			<section id="primary">
+				<h3>General information</h3>
+				<p>If you looking for cutting edge designs for your graphic and web needs, feel free to contact me. </p>
+				<p>Please only use phone contact for urgent inquiries. otherwise twitter or email are the best way to reach me.</p>
+			</section>
+			<section id="secondary">
+				<h3>Contact Details:</h3>
+				<ul class="contact-info">
+					<li class="phone"><a href="tel:07036412212">07036412212</a></li>
+					<li class="mail"><a href="mailto:dejijaye@gmail.com">dejijaye@gmail.com</a></li>
+					<li class="twitter"><a href="http://twitter.com/intent/tweet?screen_name=dejijaye">@dejijaye</a></li>
+				</ul>
+		</section>
+		</div>
+		<footer>
+			<a href="http://twitter.com/dejijaye"><img src="images/twitter-wrap.png" alt="Twitter Logo" class="social-icon"></a>
+			<a href="http://facebook.com/dejijaye"><img src="images/facebook-wrap.png" alt="Facebook Logo" class="social-icon"></a>
+			<p>&copy 2014 Ayodeji Jayeoba</p>
+		</footer>
+	</div>
+
+	<script type="text/javascript">
+	$(window).load(function ()
+	{
+		$("#flexiselDemo1").flexisel({visibleItems: 2});
+
+		$("#flexiselDemo3").flexisel
+		({
+			visibleItems: 2,
+			animationSpeed: 1000,
+			autoPlay: true,
+			autoPlaySpeed: 3000,
+			pauseOnHover: true,
+			enableResponsiveBreakpoints: true,
+			responsiveBreakpoints: 
+			{
+				portrait:
+				{
+					changePoints: 480,
+					visibleItems: 1
+				},
+
+				landscape:
+				{
+					changePoints: 640,
+					visibleItems: 1
+				},
+
+				tablet: 
+				{
+					changePoints: 768,
+					visibleItems: 1
+				},
+
+				mobile:
+				{
+					changePoints: 320,
+					visibleItems: 1
+				}
+
+			}
+		});
+	});
+
+	</script>
+</body>
+</html>
