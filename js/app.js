@@ -43,8 +43,7 @@ $(function() {
 
   $overlay.click(function () {
     $(this).hide();
-  })
-  
+  });
   
   $('nav a[href*=#]:not([href=#])').click(function() {
     var current = $("nav").find(".nav-active");
