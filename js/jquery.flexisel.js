@@ -157,10 +157,10 @@
 
                 });
                 $(leftArrow).on("click", function(event) {
-                    methods.scrollLeft();
+                    methods.scrollRight();
                 });
                 $(rightArrow).on("click", function(event) {
-                    methods.scrollRight();
+                    methods.scrollLeft();
                 });
                 if (settings.pauseOnHover == true) {
                     $(".nbs-flexisel-item").on({
