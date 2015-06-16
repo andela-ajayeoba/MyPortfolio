@@ -5,6 +5,45 @@ $(function() {
 // var headerHeight = $("#header").height();
 
 //var scrollToPostion = $(target).offset().top - headerHeight;
+
+  var $overlay = $('<div id="overlay"></div>');
+  var $image = $("<img>");
+  var $caption = $("<p></p>");
+
+  $overlay.append($image);
+
+  $overlay.append($caption)
+
+  $("body").append($overlay);
+
+  $("#flexiselDemo1 li img").click(function(e) {
+    e.preventDefault();
+    console.log("clicked");
+
+    var imageLocation = $(this).attr("src");
+    console.log(imageLocation);
+
+    $image.attr("src", imageLocation);
+    $overlay.show();
+    var captionText = $(this).next(".caption").text();
+    $caption.text(captionText);
+
+  });
+  // $("#graphicgallery a").click(function (event) {
+  //   event.preventDefault();
+  //   var imageLocation = $(this).attr("href");
+
+  //   $image.attr("src", imageLocation);
+
+  //   $overlay.show();
+
+  //   var captionText = $(this).children(".caption").text();
+  //   $caption.text(captionText);
+  // });
+
+  $overlay.click(function () {
+    $(this).hide();
+  })
   
   
   $('nav a[href*=#]:not([href=#])').click(function() {
