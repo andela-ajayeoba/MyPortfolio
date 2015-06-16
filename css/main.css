@@ -169,7 +169,11 @@ h1 {
 }
 
 span {
+<<<<<<< HEAD
 	color: #474747;
+=======
+	color: black;
+>>>>>>> 864cfb631b77f8f03873acf435b64fea6ba6b956
 	font-family: impact,sans-serif;
 }
 
